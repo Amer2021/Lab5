@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cst2335lab5"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:4:5-6:35
+12        android:name="android.hardware.camera"
+12-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:5:9-47
+13        android:required="true" />
+13-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:6:9-32
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:7:5-65
+15-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:7:22-62
+16
+17    <application
+17-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:9:5-33:19
+18        android:allowBackup="true"
+18-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.1] C:\Users\Amer Chireh\.gradle\caches\transforms-3\a6e22c01bcd04450a27d7a9ab034de5e\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:11:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:12:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.cst2335lab5" >
+26-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:15:9-49
+27        <activity
+27-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:16:9-18:46
+28            android:name="com.cst2335lab5.ProfileActivity"
+28-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:17:13-59
+29            android:configChanges="locale" />
+29-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:18:13-43
+30        <activity
+30-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:20:9-22:46
+31            android:name="com.cst2335lab5.ChatRoomActivity"
+31-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:21:13-60
+32            android:configChanges="locale" />
+32-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:22:13-43
+33        <activity
+33-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:24:9-32:20
+34            android:name="com.cst2335lab5.MainActivity"
+34-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:25:13-56
+35            android:configChanges="locale" >
+35-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:26:13-43
+36            <intent-filter>
+36-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:27:13-31:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:28:17-69
+37-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:28:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:30:17-77
+39-->C:\Users\Amer Chireh\Downloads\shibly_project\ANDROID\v6\cst2335Lab5\app\src\main\AndroidManifest.xml:30:27-74
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>
